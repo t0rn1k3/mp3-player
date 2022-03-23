@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3c78e1610b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>mp3 Player</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="player-container">
+            <div class="img">
+                <img id="image" src="images/hamats.jpg" alt="">
+            </div>
+            <h2 id="title">sea of nothingness</h2>
+            <h3 id="artist">hamatsuki</h3>
+            <audio id="audio" src="music/hamats.mp3" autoplay loop></audio>
+            <div class="progress-container" id="progressContainer">
+                <div class="progress" id="progress"></div>
+                <div class="duration">
+                    <span id="currentTime">0:00</span>
+                    <span id="duration">7:55</span>
+                </div>
+            </div>
+            <div class="player-controls">
+                <i class="fa-solid fa-xl fa-backward-step" id="prev"></i>
+                <i class="fa-solid fa-play" id="play"></i>
+                <i class="fa-solid fa-xl fa-forward-step" id="next"></i>
+            </div>
+        </div>
+    </div>
+    
+
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
